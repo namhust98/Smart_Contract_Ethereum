@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/distributor_item_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0x1241203u128371293712948712948"
+        android:textColor="#0000bb"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/distributor_item_redeemed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/distributor_item_acquired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+</LinearLayout>

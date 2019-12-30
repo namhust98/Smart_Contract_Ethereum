@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/campaign_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giam gia Noel"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/campaign_item_category_and_numCoupon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Food (200 Coupons)"
+        android:textColor="#00ff00"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/campaign_item_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="0x124814891241249127498abc234fe5654654645456"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/campaign_item_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Giam 50% khi mua hang voi hoa don tren 500k"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/campaign_item_endtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:text="Exp: 26/03/2019"
+        android:textColor="#ff0000" />
+
+</LinearLayout>

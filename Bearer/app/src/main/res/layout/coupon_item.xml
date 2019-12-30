@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/coupon_item_name"
+        android:text="Giam 50%"
+        android:textStyle="italic|bold"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Food (Remain: 18)"
+        android:id="@+id/coupon_item_category_and_remain"
+        android:textSize="18sp"
+        android:textColor="#00ff00"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/coupon_item_description"
+        android:text="Giam 50% khi mua hang voi hoa don tren 500k"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:id="@+id/coupon_item_endtime"
+        android:text="Exp: 26/03/2019"
+        android:textColor="#ff0000" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/bearer_information"
+        android:orderInCategory="1"
+        android:title="Bearer Information"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/bearer_get_coupon"
+        android:orderInCategory="2"
+        android:title="Get Coupon"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/bearer_transaction"
+        android:orderInCategory="3"
+        android:title="Transaction"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/bearer_logout"
+        android:orderInCategory="4"
+        android:title="Log out"
+        app:showAsAction="never" />
+
+</menu>
